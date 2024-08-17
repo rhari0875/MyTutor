@@ -1,0 +1,110 @@
+.self-learning {
+    background: #f0f4f8; 
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .self-learning-content {
+    max-width: 1000px; 
+    margin: 0 auto;
+    font-weight: bold;
+  }
+  
+  .self-learning h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .self-learning-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    margin-bottom: 30px;
+  }
+  
+  .self-learning-image {
+    max-width: 300px; 
+    height: auto;
+  }
+  
+  .self-learning-text-content {
+    max-width: 600px; 
+  }
+  
+  .self-learning p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  /* Container for cards */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 30px;
+  }
+  
+  .card-body {
+    flex: 1;
+    min-width: 250px; 
+    max-width: 300px; 
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .red-card {
+    background: #d9534f; 
+  }
+  
+  .orange-card {
+    background: #f0ad4e; 
+  }
+  
+  .voilet-card {
+    background: #5e4b8b; 
+  }
+  
+  .card-body img {
+    margin-bottom: 10px;
+  }
+  
+  .card-body h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  
+  .card-body h6 {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .card-body span {
+    font-size: 1.2rem;
+  }
+  
+  .cta {
+    margin-top: 20px;
+  }
+  
+  .cta button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .cta button:hover {
+    background: #0056b3;
+  }
+  
